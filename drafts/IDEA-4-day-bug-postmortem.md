@@ -8,7 +8,7 @@ Let's talk about what went right, what went wrong, and how we can avoid some of 
 
 There are a few guaranteed "what went right" bullet points once you're past the point of fixing a bug and getting it sufficiently tested:
 
-* The bug is fixed, and your new feature or your efficiency refactor that caused the bug is now part of the shippable product.
+* The bug is fixed, and your new feature or your efficiency refactor or whatever that caused the bug is now part of the shippable product.
 * You learned something, whether it was from searching on Google, asking for help from someone who knows better, etc.
 
 But there are probably some other examples you can think of that relate to some of these anecdotes I'm able to share from my own personal 4 day bug:
@@ -21,7 +21,7 @@ But there are probably some other examples you can think of that relate to some 
 
 Let's jump into the good stuff, though. What went wrong? How do you look back at the hours you've spent over the past week and justify not forseeing the additional bugs that popped up after bug fix number one, or two, or three?
 
-* Requirements changed. This feature you're working on probably has some past features as dependencies and there will be features in the future that depend on the code you're writing today. Requirements and acceptance criteria are dynamic, and what you're working on in the middle of the sprint might change. Hopefully not too much. But in the case of this bug, part of the feature that the initial bug stemmed from was modified during the course of testing that led to the bug being created. So now, in addition to fixing a bug (and whatever bugs may or may not result from the initial fix) you have to change the feature itself and retest that. 
+* Requirements changed. This feature you're working on probably has some past features as dependencies and there will be features in the future that depend on the code you're writing today. Requirements and acceptance criteria are dynamic, and what you're working on in the middle of the sprint might change. Hopefully not too much. But in the case of my bug, part of the feature that the initial bug stemmed from was modified during the course of testing that led to the bug being created. So now, in addition to fixing a bug (and whatever bugs may or may not result from the initial fix) you have to change the feature itself and retest that. 
 * Although you have gained a good bit a familiarity with the logs, this has led you to the conclusion that the background level of logging is quite verbose. It's hard to navigate them without knowing exactly what terms you're searching for and even then, they move far too quickly to consider following in real time.
 * There are no unit tests. Yeah, that's right, you head me. No unit tests. And this is a standard set of microservices in your cookie-cutter C-style language.  The original team of implementers didn't believe in unit tests and so it's just not a thing. 
 
