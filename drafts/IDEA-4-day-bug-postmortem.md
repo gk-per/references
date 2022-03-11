@@ -27,7 +27,7 @@ Let's jump into the good stuff, though. What went wrong? How do you look back at
 
 ## What Did We Learn
 
-Wait a minute, no unit tests? How do you test, one might ask? The answer to that, is to just assume that your dev environment _will_ occassionally be broken, and merge PR reviewed changes into dev, and smoke test directly in dev. Chaotic? Potentially. In our case, the services are not that badly designed and most of the other services usually work pretty well even if you happen to brick one for a while.It does take communication and understanding across the team to be courteous for this to work.
+Wait a minute, no unit tests? How do you test, one might ask? The answer to that, is to just assume that your dev environment _will_ occassionally be broken, and merge PR reviewed changes into dev, and smoke test directly in dev. Chaotic? Potentially. In our case, the services are not that badly designed and most of the other services usually work pretty well even if you happen to brick one for a while. It does take communication and understanding across the team to be courteous enough for this to work.
 
 What can we learn from the other 'What Went Wrong' bullets? For one, it's always worth considering what level of background logging you need, especially on an environment basis. [{!!Add more about this here, I'm not sure what best practice is tbh but it was difficult to sift through such verbose logs and I'm sure they take up a lot of storage space!!}]
 
