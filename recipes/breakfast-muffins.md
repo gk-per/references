@@ -13,7 +13,7 @@
 ### Cinnamon Sugar Butter Topping
 - 50g sugar
 - 1 tsp cinnamon, to taste
-- 1-2 tbsp melted butted
+- 1-2 tbsp melted butter
 
 ## Steps
 1) Beat melted butter, sugar, and egg at medium speed with a mixer until well blended
